@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPR APIs: Cart</title>
+
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>MPR APIs: Cart</h1>
+    </header>
+
+    <article>
+        <section class="api">
+            <h2>All Products</h2>
+
+            <strong>GET:</strong> https://mpr-cart-api.herokuapp.com/products
+            
+            <table>
+                <tr>
+                    <th>Request</th>
+                    <th>Response</th>
+                </tr>
+
+                <tr>
+                  <td>
+                      <strong>Query param:</strong>
+                      <ul>
+                          <li><span class="param">category</span> (optional) filter products by category name </li>
+                      </ul>
+                  </td>
+                  <td>
+                      <p>
+                          <strong>Status: </strong> 
+                          200 (OK)
+                      </p>
+                      
+                      <p>
+                          <strong>Data: (JSON)</strong>
+                          Array of products in format of [{id, category, thumbnail, name, unitPrice}, ...]
+                      </p>
+                  </td>
+                </tr>
+
+                <tr class="example">
+                    <td colspan="2">Example</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea readonly>/products?category=watches</textarea>
+                    </td>
+                    <td>
+                        <textarea readonly>
+                          [
+                          {
+                            "id": 1,
+                            "thumbnail": "https://cf.shopee.vn/file/47fa76fecd88f10eee9768dbd301ed95",
+                            "name": "Đồng hồ điện tử nam nữ Sports S03 thể thao, mẫu mới tuyệt đẹp, full chức năng, chống nước tốt",
+                            "category": "watches",
+                            "unitPrice": 23000
+                          },
+                          {
+                            "id": 2,
+                            "thumbnail": "https://cf.shopee.vn/file/78e4450b07162a4e233620efbdeebae2",
+                            "name": "Đồng hồ thời trang nữ Gogey dây da êm tay, mặt tròn nhỏ xinh xắn, chống trày xước tốt",
+                            "category": "watches",
+                            "unitPrice": 27000
+                          }
+                        ]
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </article>
+   
+</body>
+</html>

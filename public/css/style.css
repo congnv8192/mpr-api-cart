@@ -1,0 +1,51 @@
+
+body {
+  color: #222222;
+  font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+article {
+  margin: auto;
+  width: 90%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.api {
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+.api table {
+  width: 100%;
+  margin: 15px 0;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.api tr, .api th, .api td {
+  border: 1px solid #ddd;
+}
+
+.api th, .api td {
+  padding: 15px;
+}
+
+.api .example {
+  text-align: center;
+  font-weight: bold;
+}
+
+.api textarea {
+  width: 100%;
+  min-height: 500px;
+}
+
+.api .param {
+  color: red;
+}
