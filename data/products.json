@@ -1,16 +1,88 @@
 [
   {
     "id": 1,
+    "thumbnail": "https://cf.shopee.vn/file/beca50e46d2088fc5ad3c74aff5cc112",
+    "name": "[Siêu HOT] Đèn Ngủ Chiếu Sao Tự Xoay 3D",
+    "category": "lights",
+    "unitPrice": 169000
+  },
+  {
+    "id": 2,
+    "thumbnail": "https://cf.shopee.vn/file/b0c4d1c4443fb7c2d9b97cd8681f444e",
+    "name": "Đèn Ngủ 3D Led Nhiều Mẫu Hình Cực Đẹp - 3 màu (Được chọn hình)",
+    "category": "lights",
+    "unitPrice": 55000
+  },
+  {
+    "id": 3,
+    "thumbnail": "https://cf.shopee.vn/file/9333b4ea1c3df6693e9484487917b0c2",
+    "name": "Đèn Ngủ Led Để Bàn Chân Gỗ Tự Nhiên [CMART.COM.VN]",
+    "category": "lights",
+    "unitPrice": 99000
+  },
+  {
+    "id": 4,
+    "thumbnail": "https://cf.shopee.vn/file/6df240e4782c481b88966ada56d92753",
+    "name": "Đèn Ngủ 3D Led Nhiều Mẫu Hình Cực Đẹp - 3 màu- 001",
+    "category": "lights",
+    "unitPrice": 55000
+  },
+  {
+    "id": 5,
+    "thumbnail": "https://cf.shopee.vn/file/b4fb9f4fc4af2c52843a440134e907ef",
+    "name": "Đèn ngủ silicon Trâu con dễ thương có điều khiển từ xa 16 màu Đồ trang trí Quà tặng đẹp [BH 1 đổi 1]",
+    "category": "lights",
+    "unitPrice": 275000
+  },
+
+  {
+    "id": 6,
     "thumbnail": "https://cf.shopee.vn/file/47fa76fecd88f10eee9768dbd301ed95",
     "name": "Đồng hồ điện tử nam nữ Sports S03 thể thao, mẫu mới tuyệt đẹp, full chức năng, chống nước tốt",
     "category": "watches",
     "unitPrice": 23000
   },
   {
-    "id": 2,
+    "id": 7,
     "thumbnail": "https://cf.shopee.vn/file/78e4450b07162a4e233620efbdeebae2",
     "name": "Đồng hồ thời trang nữ Gogey dây da êm tay, mặt tròn nhỏ xinh xắn, chống trày xước tốt",
     "category": "watches",
     "unitPrice": 27000
+  },
+  {
+    "id": 8,
+    "thumbnail": "https://cf.shopee.vn/file/42e07e90ee3fa5a7e65238145f50d8fd",
+    "name": "Đồng Hồ Nam WWOOR 8826 Máy Nhật Dây Thép Mành Cao Cấp - Nhiều Màu",
+    "category": "watches",
+    "unitPrice": 245500
+  },
+  {
+    "id": 9,
+    "thumbnail": "https://cf.shopee.vn/file/ee5fdb8d1a095b9062d2021a4d790fda",
+    "name": "Đồng Hồ Nữ 💖𝐅𝐑𝐄𝐄 𝐒𝐇𝐈𝐏💖 Chính Hãng ULZZANG 2702 Dây Lưới Nam Châm Cao Cấp.",
+    "category": "watches",
+    "unitPrice": 79000
+  },
+  {
+    "id": 10,
+    "thumbnail": "https://cf.shopee.vn/file/e6b47b0e53fdb23c2ec61736609d9a51",
+    "name": "Vòng tay theo dõi sức khoẻ Mi Band 5 Xiaomi",
+    "category": "watches",
+    "unitPrice": 569000
+  },
+
+  {
+    "id": 11,
+    "thumbnail": "https://cf.shopee.vn/file/ea069dc13e5f7ca7bfcc00c0c1daeda5",
+    "name": "Mũ Bảo Hiểm Nửa Đầu 1/2 Nhiều Tem Siêu HOT - Hàng Cao Cấp",
+    "category": "helmets",
+    "unitPrice": 99000
+  },
+  {
+    "id": 12,
+    "thumbnail": "https://cf.shopee.vn/file/7969a15babb7f6703138615e33956eb1",
+    "name": "Tai nghe phone 6/6s Zin - 🎁Tặng bao đựng + dây cuốn🎁 - Bảo hành 12 tháng lỗi 1 đổi 1",
+    "category": "earphones",
+    "unitPrice": 79000
   }
 ]

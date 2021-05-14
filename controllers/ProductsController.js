@@ -9,7 +9,7 @@ const products = require('../data/products.json');
 function all(req, res) {
   let data = products;
 
-  console.log(products);
+  // console.log(products);
 
   // filter by category
   const category = req.query.category;
@@ -18,6 +18,13 @@ function all(req, res) {
       return product.category == category
     });
   }
+
+  // for mpr-2021: remove category
+  data = data.map(item => {
+    delete item.category;
+
+    return item;
+  });
 
   return res.json(data);
 }

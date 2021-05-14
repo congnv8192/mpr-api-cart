@@ -32,10 +32,11 @@
                 <tr>
                   <td>
                       <strong>Query param:</strong>
-                      <ul>
+                      None
+                      <!-- <ul>
                           <li><span class="param">category</span> (optional) filter products by category name </li>
-                      </ul>
-                      <p>In case of no category specified, return all products</p>
+                      </ul> -->
+                      <!-- <p>In case of no category specified, return all products</p> -->
                   </td>
                   <td>
                       <p>
@@ -45,7 +46,8 @@
                       
                       <p>
                           <strong>Data: (JSON)</strong>
-                          Array of products in format of [{id, category, thumbnail, name, unitPrice}, ...]
+                          Array of products in format of [{id, thumbnail, name, unitPrice}, ...]
+                          <!-- Array of products in format of [{id, category, thumbnail, name, unitPrice}, ...] -->
                       </p>
                   </td>
                 </tr>
@@ -55,9 +57,27 @@
                 </tr>
                 <tr>
                     <td>
-                        <textarea readonly>/products?category=watches</textarea>
+                        <textarea readonly>/products</textarea>
+                        <!-- <textarea readonly>/products?category=watches</textarea> -->
                     </td>
                     <td>
+                        <textarea readonly>
+[
+    {
+    "id": 1,
+    "thumbnail": "https://cf.shopee.vn/file/47fa76fecd88f10eee9768dbd301ed95",
+    "name": "Đồng hồ điện tử nam nữ Sports S03 thể thao, mẫu mới tuyệt đẹp, full chức năng, chống nước tốt",
+    "unitPrice": 23000
+    },
+    {
+    "id": 2,
+    "thumbnail": "https://cf.shopee.vn/file/78e4450b07162a4e233620efbdeebae2",
+    "name": "Đồng hồ thời trang nữ Gogey dây da êm tay, mặt tròn nhỏ xinh xắn, chống trày xước tốt",
+    "unitPrice": 27000
+    }
+]
+                        </textarea>
+<!-- 
                         <textarea readonly>
 [
     {
@@ -75,13 +95,11 @@
     "unitPrice": 27000
     }
 ]
-                        </textarea>
+                        </textarea> -->
                     </td>
                 </tr>
             </table>
         </section>
-
     </article>
-   
 </body>
 </html>
