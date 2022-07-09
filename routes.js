@@ -7,6 +7,7 @@ const router = express.Router();
 // get all products (param filter by category)
 router.get('/products', ProductsController.all);
 
+// for marking
 router.get('/count', ProductsController.getCount);
 
 
