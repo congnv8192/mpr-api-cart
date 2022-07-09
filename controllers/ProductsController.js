@@ -1,5 +1,7 @@
 const products = require('../data/products.json');
 
+let count = 0;
+
 /**
  * GET /products
  * return an array of all products by  (format: {id, : definition, ...})
@@ -26,9 +28,17 @@ function all(req, res) {
     return item;
   });
 
+  // for mpr-2022: hit count for marking
+  count++;
+
   return res.json(data);
 }
 
+function getCount(req, res) {
+  return res.json({count});
+}
+
 module.exports = {
-  all: all
+  all: all,
+  getCount: getCount
 }
